@@ -158,6 +158,47 @@ a{
 
 /*END OF TEAM SECTION*/
 
+/*PARTNERS SECTION */
+.partners-wrap{
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+
+.partners-wrap h2{
+  font-size: 30px;
+  color: #141414;
+}
+
+.partners-in{
+  width: 100%;
+  height: auto;
+}
+
+.partners-in ul{
+  padding: 0;
+  margin: 0;
+
+}
+
+.partners-in ul li{
+  list-style: none;
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.partners-in ul li img{
+  width: 150px;
+  height: 100px;
+  padding: 15px;
+}
+
+
+/*END OF PARTNERS SECTION*/
+
 /*Accomplishments and projects section*/
 #accomplish {
     display: flex;
