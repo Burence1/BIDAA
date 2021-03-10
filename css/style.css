@@ -352,3 +352,27 @@ a{
 
 /*about us */
  
+/*donate page*/
+/*header*/
+#header-donate{
+  background-color: black;
+}
+#logo-donate{
+  display: flex;
+  justify-content: center;
+}
+/*donate form*/
+#donate-form{
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10em;
+}
+#name{
+  display: flex;
+  flex-direction: row;
+}
+#address-phone{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
