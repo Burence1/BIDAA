@@ -14,9 +14,8 @@ body{
 a{
   text-decoration: none;
 }
-.logo{
-  width: 20px ;
-  height:10px;
+.btn-primary{
+  border: 1px solid;
 }
 #team{
   margin-top: 15px;
