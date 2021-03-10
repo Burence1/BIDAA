@@ -332,6 +332,12 @@ a{
   #address{
     padding-top: 6em;
   }
+  /*children.html*/
+  /*carousel & navbar*/
+  #donate-btn{
+    padding-top: 5em;
+  }
+
   @media screen and (max-width: 600px) {
     .useful-links {
       margin-top: 40px;
