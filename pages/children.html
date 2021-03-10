@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="../js/bootstrap.js"></script>
+  <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <section>
@@ -22,7 +23,7 @@
         <a class="nav-link" href="../pages/donate.html" style="color: black;">Donate</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../index.html" style="color: black;">Contacts</a>
+        <a class="nav-link" href="#contact" style="color: black;">Contacts</a>
       </li>
     </ul>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -55,5 +56,71 @@
       </div>
     </div> -->
   </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row" id="contact">
+        <div class="col-md-4" id="address">
+          <div>
+            <p>89, Two Rivers Mall, Limuru Road, Nairobi, Kenya.</p>
+            <ul class="list-inline mt-5">
+              <li class="m-0 pl-10 pr-10">
+                <i class="fa fa-phone text-theme-colored"></i>
+                <a href="#">254-720-000200</a>
+              </li>
+              <li class="m-0 pl-10 pr-10">
+                <i class="fa fa-envelope text-theme-colored"></i>
+                <a href="#">contact@bidaa.com</a>
+              </li>
+              <li class="m-0 pl-10 pr-10">
+                <i class="fa fa-globe text-theme-colored"></i>
+                <a href="#">www.bidaa.org</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4" id="link">
+            <div class="logo">
+              <img src="../images/logo.png">
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem" id="foot-link">
+            <div class="card-body">
+              <div>
+                <h5 class="useful-links line-bottom">Useful Links</h5>
+                <ul class="list list-border">
+                  <li><a href="https://www.unicef.org/">UNICEF</a></li>
+                  <li><a href="https://www.unhcr.org/">UNHCR</a></li>
+                  <li><a href="https://www.wfp.org/">WFP</a></li>
+                  <li><a href="https://unhabitat.org/">UN-Habitat</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div>
+          <p class="text-center copyright" id="copyright">
+            Copyright ©2021 BIDAA. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+  <script type="text/javascript">
+    (function ($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[1] = "NAME";
+      ftypes[1] = "text";
+      fnames[0] = "EMAIL";
+      ftypes[0] = "email";
+      fnames[3] = "MESSAGE";
+      ftypes[3] = "text";
+    })(jQuery);
+    var $mcj = jQuery.noConflict(true);
+  </script>
 </body>
 </html>
