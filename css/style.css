@@ -440,6 +440,10 @@ a{
   margin-right: auto;
   margin-left: auto;
   padding-top: 10em;
+  background: turquoise;
+}
+.btn btn-dark{
+  margin: 2em;
 }
 #name{
   display: flex;
