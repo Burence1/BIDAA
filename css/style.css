@@ -8,6 +8,7 @@ body{
     font-family: "Open Sans", sans-serif;
     background-color: #fff;
     font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
    
 }
 *{
@@ -332,10 +333,12 @@ a{
   #address{
     padding-top: 6em;
   }
-  /*children.html*/
-  /*carousel & navbar*/
-  #donate-btn{
-    padding-top: 5em;
+  /*children.html page*/
+  /*footer section*/
+  #foot-link{
+    padding-top: 4em;
+    background: transparent;
+    height: fit-content;
   }
 
   @media screen and (max-width: 600px) {
