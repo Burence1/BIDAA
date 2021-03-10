@@ -1,5 +1,6 @@
 
 body{
+<<<<<<< HEAD
   margin:0px;
   padding: 0px;
   line-height: 1.7;
@@ -7,6 +8,18 @@ body{
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
+=======
+    margin:0px;
+    padding: 0px;
+    line-height: 1.7;
+    color: #666666;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+   
+>>>>>>> cd91324b7cfc5af969df298b764132f41751a29f
 }
 *{
   box-sizing: border-box;
@@ -340,6 +353,7 @@ ol {
   padding-top: 6em;
 }
 
+<<<<<<< HEAD
 #address{
   padding-top: 6em;
 }
@@ -382,3 +396,27 @@ figure {
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
 }
+=======
+  #address{
+    padding-top: 6em;
+  }
+  /*children.html page*/
+  /*footer section*/
+  #foot-link{
+    padding-top: 4em;
+    background: transparent;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 600px) {
+    .useful-links {
+      margin-top: 40px;
+    }
+  }
+  .title{
+    color: blue;
+  }
+
+/*about us */
+ 
+>>>>>>> cd91324b7cfc5af969df298b764132f41751a29f
