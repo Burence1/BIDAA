@@ -26,10 +26,10 @@
   position: relative;
 }
 
-.card{
+#ali, #moses, #brian, #lucy{
   width:266px;
   height: 340px;
-  background-color: #ffffff;
+  background-color: whitesmoke;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
@@ -39,9 +39,9 @@
   border-radius: 10px;
   margin: 20px;
   position: relative      
-}
+} 
 
-.card-header{
+#ejekuf, #maina, #elca, #abdulaziz{
   background-color: #a0f4ff;
   color: #0d0e0d;
   font-family:Arial, Helvetica, sans-serif;
@@ -426,3 +426,27 @@ a{
 
 /*about us */
  
+/*donate page*/
+/*header*/
+#header-donate{
+  background-color: black;
+}
+#logo-donate{
+  display: flex;
+  justify-content: center;
+}
+/*donate form*/
+#donate-form{
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10em;
+}
+#name{
+  display: flex;
+  flex-direction: row;
+}
+#address-phone{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
