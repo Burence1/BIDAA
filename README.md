@@ -1,4 +1,3 @@
-# ![BIDDA](https://burence1.github.io/BIDAA/images/Screenshot from 2021-03-12 00-46-01.png)
 # BIDAA
 <table>
 <tr>
@@ -12,24 +11,17 @@
 ## Demo
 Here is a working live demo :  https://burence1.github.io/BIDAA/
 
-
-## Site
-
 ### Landing Page
-Heres is a working landing page of BIDAA
+Heres is a screenshot of the landing page of BIDAA
 
-![](https://burence1.github.io/BIDAA/images/Screenshot from 2021-03-12 00-46-01.png)
+<img src="images/screenshot.png" width="900px" height="440px">
 
 
 ## Mobile support
 Although the website is compatible with devices of all sizes, we are still working on the responsitivity of some pages .
 
-![](https://burence1.github.io/BIDAA/images/Screenshot from 2021-03-12 00-46-01.png)
 
-
-
-
-## [Usage](https://burence1.github.io/BIDAA/) 
+## [Demo](https://burence1.github.io/BIDAA/) 
 
 ### Development
 To contribute, follow the following steps;
@@ -45,27 +37,24 @@ To contribute, follow the following steps;
 
 ## Built with 
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of Css components and  Bundled Javascript plugins.
-
-- [javaScript] ()
+- [javaScript]()
 - [Html]() 
 - [Css]() 
 
 
-### Bug / Feature Request
-
-
-
+### Bugs
+So far there are some errors on the website we have not rectified but it does not affect the functioning of the pages
 
 ## Team
 
 [![Burens](https://avatars.githubusercontent.com/u/53422530?s=400&u=b3d9704892a4a68c8447d3a1bbae5f081c46dd63&v=4)](https://github.com/Burence1)  
----|---
-[]() 
-[]() 
-[]() 
-[]() 
-[]() 
+
+[ ![Ian Kiplagat](https://avatars.githubusercontent.com/u/78469773?s=400&u=c5ada583a0141c124599d4893b8a189c04216711&v=4)](https://github.com/kasparov-creat) 
+[ ![Savanah Agutu](https://avatars.githubusercontent.com/u/62004236?s=400&u=669ad00a09d4701962ad31a24061963402a6ea3a&v=4)](https://github.com/savanahatieno) 
+[ ![Dennis Mulwa](https://avatars.githubusercontent.com/u/78588564?s=400&v=4)](https://github.com/dennismulwablessed2) 
+[ ![Anzal Mohamed](https://github.com/account)](https://github.com/anzalmohamed) 
+
 
 ## [License]()
 
-MIT © [Burens](https://github.com/Burence1)
+[MIT](https://choosealicense.com/licenses/mit/) © [Burens](https://github.com/Burence1)
