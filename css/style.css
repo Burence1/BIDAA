@@ -521,3 +521,8 @@ figure {
   width: fit-content;
   margin-bottom: 1em;
 }
+#form-bg{
+  background-image: url(../images/8.jpg);
+  background-size: cover;
+  color: #0d0e0d;
+}

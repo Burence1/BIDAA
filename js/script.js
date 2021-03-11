@@ -13,9 +13,15 @@ $(document).ready(function () {
       $("#showAmount").text(amount);
       $("#showOther").text(other);
       $("#showPhone").text(phone);
-      console.log(fname);
-
       
+
+      $("#btn-submit").click(function () {
+        
+        if (fname == "" || lname == "" || amount == "" || other == "" || phone) {
+          alert("Provide Contact details")
+        } else {
+          alert("Thank you " + Name + "for letting us serve you, your pizza will be delivered to " + location + " in less than an hour." + "Your bill amounts to Kshs." + finalDeliveryTotal);
+        }
     });
     
   })});
