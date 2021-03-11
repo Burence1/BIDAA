@@ -13,12 +13,24 @@ $(document).ready(function () {
         $("#showAmount").text(amount);
         $("#showOther").text(other);
         $("#showPhone").text(phone);
-        console.log(fname);
-  
+        
+        if (fname == "" || lname == "" || phone == "") {
+          alert("please enter details");
+        } else {
+          alert(`Thank you ${fname} ${lname} for contributing ${amount || other} towards needy children`)
+        }
         
       });
       
     })});
     
-
+$(document).ready(function () {
+  $("#btn-submit").click(function () {
+    $("#showFname").fadeIn(800);
+    $("#showLname").fadeIn(900);
+    $("#showAmount").fadeIn(1000);
+    $("#showOther").fadeIn(1100);
+    $("#showPhone").fadeIn(1200);
+  })});
+  
   
