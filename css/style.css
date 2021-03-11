@@ -990,22 +990,17 @@ figure {
   justify-content: center;
 }
 /*donate form*/
-#donate-form{
+/* #donate-form{
   margin-right: auto;
   margin-left: auto;
   padding-top: 10em;
-}
+} */
 .btn btn-dark{
   margin: 2em;
 }
-#name{
+/* #name{
   display: flex;
   flex-direction: row;
-}
-/* #address-phone{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 } */
 
 #btn-submit{
@@ -1017,14 +1012,13 @@ figure {
   width: fit-content;
   margin-bottom: 1em;
 }
-#form-bg{
-  background-image: url(../images/8.jpg);
-  background-size: cover;
+#donate-form-1, #donate-form{
+  background:grey;
   color: #0d0e0d;
+  padding: 3em;
+}
+#showFname, #showLname, #showAmount,
+ #showOther, #showPhone{
+  display: none;
 }
 
-/* #nav-1, #nav-2, #nav-3, #nav-4, #nav-5{
-  display: flex;
-  justify-content: end;
-  height: fit-content;
-} */

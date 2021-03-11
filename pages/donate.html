@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,101 +9,81 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link href="../css/style.css" rel="stylesheet" type="text/css">
-  <style>
-    body{
-      background-color: cornflowerblue;
-    }
-  </style>
 </head>
+<style>
+  body{
+    background-color: lightgray;
+  }
+</style>
 <body>
   <div class="container-fluid" id="header-donate">
-    <section>
-      <div class="card">
-        <div class="card-body">
-          <div class="card-title bg-primary">
-              <ul class="nav justify-content-end fixed-top bg-primary">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html" style="color: black;">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/children.html" style="color: black;">Children</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/donate.html" style="color: black;">Donate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../team.html" style="color: black;">Team</a>
-              </li>
-                </ul>
-          </div>
-        </div>
-      </div>
-    </section>
     <div id="logo-donate">
       <img src="../images/logo.png">
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 30rem;">
-            <div class="card-body">
-              <form action="submit" id="donate-form-1">
-                <div class="card">
-                  <h4> Contribution</h4>
-                  <div class="card-body"></div>
-                  <div class="contribute" id="contribute"></div>
-                  <div class="contribute-body" id="contribute-2">
-                    <p>
-                      Join us and be a part of this good course to help needy children
-                      pursue their dreams. Any amount of contribution will be highly
-                      appreciated.
-                    </p>
-                  </div>
-                  <div class="amount">
-                    <input type="radio" id="monthly" name="radAnswer" value="Kshs. 500">
-                    <label for="">kshs.500 </label><br>
-                    <input type="radio" id="monthly-1" name="radAnswer" value="kshs. 1,000">
-                    <label for="">Kshs.1,000 </label><br>
-                    <input type="radio" id="monthly-2" name="radAnswer" value="Kshs. 2,000">
-                    <label for="">Kshs. 2,000 </label><br>
-                    <label for="other">Enter Amount:</label>
-                    <input type="number" id="other" name="other">
-                  </div>
-                </div>
-                <hr>
-                <div class="bio">
-                  <div class="name" id="name">
-                    <div class="fname">
-                      <label for="fname">First name:</label>
-                      <input type="text" id="fname" name="fname"><br><br>
-                    </div>
-                    <div class="lname">
-                      <label for="lname">Last name:</label>
-                      <input type="text" id="lname" name="lname"><br><br>
-                    </div>
-                  </div>
-                </div>
-                  <div class="phone">
-                    <div class="phone">
-                      <label for="phone">Phone Number:</label>
-                      <input type="tel" id="phone" name="phone">
-                    </div>
-                  </div>
-                <div class="submit">
-                  <button type="submit" name="btn-submit" class="btn btn-dark" onclick="submit" id="btn-submit">Submit</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <hr>
-        </div>
-        <div class="col">
-          <div class="card" id="donate-form" style="width: 30rem;">
-            <div class="card-body">
-              <div class="card">
-                <h4> Donation Preview</h4><hr>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col" style="padding-top: 4em;">
+        <div class="card" style="width: 30rem; background-color: black;">
+          <div class="card-body">
+            <form class="form-group" action="submit" id="donate-form-1">
+              <!-- <div class="card"> -->
+                <h4 style="text-align: center;"> Contributions</h4>
                 <div class="card-body"></div>
                 <div class="contribute" id="contribute"></div>
+                <div class="contribute-body" id="contribute-2">
+                  <p>
+                    Join us and be a part of this good course to help needy children
+                    pursue their dreams. Any amount of contribution will be highly
+                    appreciated.
+                  </p>
+                </div>
+                <div class="amount">
+                  <h4>Amount</h4>
+                  <input type="radio" id="monthly" name="radAnswer" value="Kshs. 500">
+                  <label for="">kshs.500 </label><br>
+                  <input type="radio" id="monthly-1" name="radAnswer" value="kshs. 1,000">
+                  <label for="">Kshs.1,000 </label><br>
+                  <input type="radio" id="monthly-2" name="radAnswer" value="Kshs. 2,000">
+                  <label for="">Kshs. 2,000 </label><br>
+                  <label for="other">Other Amount:</label>
+                  <input type="number" class="form-control" id="other" name="other">
+                </div>
+              <!-- </div> -->
+              <div class="bio">
+                <div class="name" id="name">
+                  <h4>Name</h4>
+                  <div class="fname">
+                    <label for="fname">First name:</label>
+                    <input type="text" class="form-control" id="fname" name="fname"><br><br>
+                  </div>
+                  <div class="lname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" class="form-control" id="lname" name="lname"><br><br>
+                  </div>
+                </div>
+              </div>
+              <div class="phone">
+                <div class="phone">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+              </div>
+              <div class="submit">
+                <button type="submit" name="btn-submit" class="btn btn-dark" onclick="submit"
+                  id="btn-submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col" style="padding-top: 30em;">
+        <div class="card" id="donate-form" style="width: 30rem;">
+          <div class="card-body">
+            <div class="card">
+              <h4 style="text-align: center;"> Donation Preview</h4>
+              <div class="card-body">
+              <div class="contribute" id="contribute"></div>
                 <div class="name-output">
                   <p><strong>First Name:</strong><span id="showFname"></span></p>
                 </div>
@@ -120,16 +101,128 @@
                 </div>
               </div>
             </div>
-            <div class="gratitude">
-              <p><strong><span id="showGratitude"></span></strong></p>
+          </div>
+          <div class="gratitude">
+            <p><strong><span id="showGratitude"></span></strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="container">
+        <div class="row" id="contact">
+          <div class="col-md" id="address">
+            <div>
+              <p>89, Two Rivers Mall, Limuru Road, Nairobi, Kenya.</p>
+              <ul class="list-inline mt-5">
+                <li class="m-0 pl-10 pr-10">
+                  <i class="fa fa-phone text-theme-colored"></i>
+                  <a href="#">254-720-000200</a>
+                </li>
+                <li class="m-0 pl-10 pr-10">
+                  <i class="fa fa-envelope text-theme-colored"></i>
+                  <a href="#">contact@bidaa.com</a>
+                </li>
+                <li class="m-0 pl-10 pr-10">
+                  <i class="fa fa-globe text-theme-colored"></i>
+                  <a href="#">www.bidaa.org</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md" id="link">
+            <div>
+              <h5 class="useful-links line-bottom">Useful Links</h5>
+              <ul class="list list-border">
+                <li><a href="https://www.unicef.org/">UNICEF</a></li>
+                <li><a href="https://www.unhcr.org/">UNHCR</a></li>
+                <li><a href="https://www.wfp.org/">WFP</a></li>
+                <li><a href="https://unhabitat.org/">UN-Habitat</a></li>
+              </ul>
+            </div>
+            <img src="../images/logo.png">
+          </div>
+          <div class="col-md">
+            <div class="card" style="width: 18rem" id="mail">
+              <div class="card-body">
+                <div id="mc_embed_signup">
+                  <form
+                    action="https://gmail.us1.list-manage.com/subscribe/post?u=a437607d27f5c8f5f86b7d22e&amp;id=3f0ee47891"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <h2 style="color: white;">Contact Us:</h2>
+                      <div class="mc-field-group">
+                        <label for="mce-NAME">Name </label>
+                        <input type="text" value="" name="NAME" class="" id="mce-NAME" />
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-MESSAGE">Message </label>
+                        <input type="text" value="" name="MESSAGE" class="" id="mce-MESSAGE" />
+                      </div>
+                      <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display: none"></div>
+                        <div class="response" id="mce-success-response" style="display: none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: relative; left: -5000px" aria-hidden="true">
+                        <input type="text" name="b_a437607d27f5c8f5f86b7d22e_3f0ee47891" tabindex="-1" value="" />
+                      </div>
+                      <div class="clear">
+                        <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <div>
+              <h5 class="connect">Connect With Us</h5>
+              <ul class="styled-icons icon-theme-colored" id="icons-bt">
+                <li>
+                  <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/twitter?lang=en"><i class="bi bi-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.skype.com/en/"><i class="fab fa-skype"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-center copyright" id="copyright">
+          Copyright ©2021 BIDAA. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </div>
 <script src="../js/jquery.js"></script>
 <script src="../js/script.js"></script>
 </body>
 </html>
-    
