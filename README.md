@@ -38,8 +38,8 @@ To contribute, follow the following steps;
 ## Built with 
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of Css components and  Bundled Javascript plugins.
 - [javaScript]()
-- [Html]() 
-- [Css]() 
+- [Html](https://www.w3schools.com/html/html_intro.asp) 
+- [Css](https://www.w3schools.com/css/) 
 
 
 ### Bugs
@@ -83,6 +83,7 @@ Anzal Mohamed
 </td>
 </tr>
 
+</table>
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/) © [BIDAA Welfare Organization](https://github.com/Burence1/BIDAA)
