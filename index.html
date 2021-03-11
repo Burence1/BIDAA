@@ -22,6 +22,67 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav justify-content-end fixed-top">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html" style="color: blue;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" style="color: blue;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/flex.html" style="color: blue;">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" style="color: blue;">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bidaa/images/bidaa3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4">Bidaa</h1>
+          <h3>Restoring future generations</h3>
+          <button type="button" class="btn btn-outline-primary">Donate</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bidaa/images/bidaa12.jpg" class="d-block w-100" alt="..." style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bidaa/images/bidaa9.jpg" class="d-block w-100" alt="..." style="height: 40em;">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
   <div class="container">
     <section>
     <div class="card">
@@ -163,9 +224,11 @@
   <!--mission-->
  
   <section>
+
     <div class="card mt-3 text-center border-light">
       <div class="card-header border-light">
     <img src="images/mission.png" alt="">
+
   
     <p>Protecting children and ensuring they get the basic needs they require is definately inside our sphere
       of
@@ -342,11 +405,13 @@
         </ul>
       </div>
     </div>
+
+
   </section>
   <div class="contact">
     <div class="container">
       <div class="row" id="contact">
-        <div class="col-md-4" id="address">
+        <div class="col-md" id="address">
           <div>
             <p>89, Two Rivers Mall, Limuru Road, Nairobi, Kenya.</p>
             <ul class="list-inline mt-5">
@@ -365,7 +430,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4" id="link">
+        <div class="col-md" id="link">
           <div>
             <h5 class="useful-links line-bottom">Useful Links</h5>
             <ul class="list list-border">
@@ -374,12 +439,9 @@
               <li><a href="https://www.wfp.org/">WFP</a></li>
               <li><a href="https://unhabitat.org/">UN-Habitat</a></li>
             </ul>
-            <div class="logo">
-              <img src="../images/logo.png">
-            </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md">
           <div class="card" style="width: 18rem" id="mail">
             <div class="card-body">
               <div id="mc_embed_signup">
@@ -475,4 +537,5 @@
     var $mcj = jQuery.noConflict(true);
   </script>
 </body>
+
 </html>
