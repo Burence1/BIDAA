@@ -1022,3 +1022,9 @@ figure {
   background-size: cover;
   color: #0d0e0d;
 }
+
+/* #nav-1, #nav-2, #nav-3, #nav-4, #nav-5{
+  display: flex;
+  justify-content: end;
+  height: fit-content;
+} */
