@@ -45,8 +45,9 @@ To contribute, follow the following steps;
 ### Bugs
 So far there are some errors on the website we have not rectified but it does not affect the functioning of the pages
 
-### Team
+# Team
 <table>
+
 <tr>
 <td>
 
@@ -77,11 +78,11 @@ Dennis Mulwa
 
 <td>
 
-[ ![Anzal Mohamed]()](https://github.com/anzalmohamed) 
+[ ![Anzal Mohamed](https://avatars.githubusercontent.com/u/78472574?s=460&u=3fa34d96e8f7765088a722b284c4fc23b3716010&v=4)](https://github.com/anzalmohamed) 
 Anzal Mohamed
 </td>
 </tr>
 
-# License
 
+# License
 [MIT](https://choosealicense.com/licenses/mit/) © [BIDAA Welfare Organization](https://github.com/Burence1/BIDAA)
