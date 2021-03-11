@@ -15,147 +15,172 @@
   </style>
 </head>
 <body>
+  
   <div class="container-fluid" id="header-donate">
+    <section>
+      <div class="card">
+        <div class="card-body">
+      <div class="card-title bg-primary">
+           <ul class="nav justify-content-end fixed-top bg-primary">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html" style="color: black;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/children.html" style="color: black;">Children</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/donate.html" style="color: black;">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../team.html" style="color: black;">Team</a>
+          </li>
+            </ul>
+          </div>
+      </div>
+      </div>
+      </section>
     <div id="logo-donate">
       <img src="../images/logo.png">
     </div>
-  </div>
-  <div class="container" style="margin-top: 4em;">
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 30rem;">
-        <div class="card-body" id="form-bg">
-          <form action="submit" id="donate-form-1">
-            <div class="card">
-              <h4> Contribution</h4>
-              <div class="card-body"></div>
-              <div class="contribute" id="contribute"></div>
-              <div class="contribute-body" id="contribute-2">
-                <p>
-                  Join us and be a part of this good course to help needy children
-                  pursue their dreams. Any amount of contribution will be highly
-                  appreciated.
-                </p>
-              </div>
-              <div class="amount">
-                <input type="radio" id="monthly" name="radAnswer" value="Kshs. 500">
-                <label for="">kshs.500 </label><br>
-                <input type="radio" id="monthly-1" name="radAnswer" value="kshs. 1,000">
-                <label for="">Kshs.1,000 </label><br>
-                <input type="radio" id="monthly-2" name="radAnswer" value="Kshs. 2,000">
-                <label for="">Kshs. 2,000 </label><br>
-                <label for="other">Other Amount:</label>
-                <input type="number" id="other" name="other" style="margin-bottom: 1em;">
-              </div>
-            </div>
-            <hr>
-            <div class="bio">
-              <div class="name" id="name">
-                <div class="fname">
-                  <label for="fname">First name:</label>
-                  <input type="text" id="fname" name="fname"><br><br>
-                </div>
-                <div class="lname">
-                  <label for="lname">Last name:</label>
-                  <input type="text" id="lname" name="lname"><br><br>
-                </div>
-              </div>
-            </div>
-              <div class="phone">
-                <div class="phone">
-                  <label for="phone">Phone Number:</label>
-                  <input type="tel" id="phone" name="phone">
-                </div>
-              </div>
-            <div class="submit">
-              <button type="submit" name="btn-submit" class="btn btn-dark" onclick="submit" id="btn-submit">Submit</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" id="donate-form" style="width: 30rem;">
-        <div class="card-body">
-          <div class="card" >
-            <div class="card-body"></div>
-            <div class="contribute" id="contribute"></div>
-            <div class="name-output">
-              <p><strong>First Name:</strong><span id="showFname"></span></p>
-            </div>
-            <div class="lname-output">
-              <p><strong>Last Name:</strong><span id="showLname"></span></p>
-            </div>
-            <div class="phone-output">
-              <p><strong>Phone Number:</strong><span id="showPhone"></span></p>
-            </div>
-            <div class="amount-output">
-              <p><strong>Amount:</strong><span id="showAmount"></span></p>
-            </div>
-            <div class="other-output">
-              <p><strong>Other Amount:</strong><span id="showOther"></span></p>
-            </div>
-          </div>
-        </div>
-        <div class="gratitude">
-          <p><strong><span id="showGratitude"></span></strong></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <div class="row" id="contact">
-        <div class="col-md-4" id="address">
-          <div>
-            <p>89, Two Rivers Mall, Limuru Road, Nairobi, Kenya.</p>
-            <ul class="list-inline mt-5">
-              <li class="m-0 pl-10 pr-10">
-                <i class="fa fa-phone text-theme-colored"></i>
-                <a href="#">254-720-000200</a>
-              </li>
-              <li class="m-0 pl-10 pr-10">
-                <i class="fa fa-envelope text-theme-colored"></i>
-                <a href="#">contact@bidaa.com</a>
-              </li>
-              <li class="m-0 pl-10 pr-10">
-                <i class="fa fa-globe text-theme-colored"></i>
-                <a href="#">www.bidaa.org</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4" id="link">
-          <div class="logo">
-            <img src="../images/logo.png">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem" id="foot-link">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 30rem;">
             <div class="card-body">
+              <form action="submit" id="donate-form-1">
+                <div class="card">
+                  <h4> Contribution</h4>
+                  <div class="card-body"></div>
+                  <div class="contribute" id="contribute"></div>
+                  <div class="contribute-body" id="contribute-2">
+                    <p>
+                      Join us and be a part of this good course to help needy children
+                      pursue their dreams. Any amount of contribution will be highly
+                      appreciated.
+                    </p>
+                  </div>
+                  <div class="amount">
+                    <input type="radio" id="monthly" name="radAnswer" value="Kshs. 500">
+                    <label for="">kshs.500 </label><br>
+                    <input type="radio" id="monthly-1" name="radAnswer" value="kshs. 1,000">
+                    <label for="">Kshs.1,000 </label><br>
+                    <input type="radio" id="monthly-2" name="radAnswer" value="Kshs. 2,000">
+                    <label for="">Kshs. 2,000 </label><br>
+                    <label for="other">Enter Amount:</label>
+                    <input type="number" id="other" name="other">
+                  </div>
+                </div>
+                <hr>
+                <div class="bio">
+                  <div class="name" id="name">
+                    <div class="fname">
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname"><br><br>
+                    </div>
+                    <div class="lname">
+                      <label for="lname">Last name:</label>
+                      <input type="text" id="lname" name="lname"><br><br>
+                    </div>
+                  </div>
+                </div>
+                  <div class="phone">
+                    <div class="phone">
+                      <label for="phone">Phone Number:</label>
+                      <input type="tel" id="phone" name="phone">
+                    </div>
+                  </div>
+                <div class="submit">
+                  <button type="submit" name="btn-submit" class="btn btn-dark" onclick="submit" id="btn-submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="col">
+          <div class="card" id="donate-form" style="width: 30rem;">
+            <div class="card-body">
+              <div class="card">
+                <h4> Donation Preview</h4><hr>
+                <div class="card-body"></div>
+                <div class="contribute" id="contribute"></div>
+                <div class="name-output">
+                  <p><strong>First Name:</strong><span id="showFname"></span></p>
+                </div>
+                <div class="lname-output">
+                  <p><strong>Last Name:</strong><span id="showLname"></span></p>
+                </div>
+                <div class="phone-output">
+                  <p><strong>Phone Number:</strong><span id="showPhone"></span></p>
+                </div>
+                <div class="amount-output">
+                  <p><strong>Amount:</strong><span id="showAmount"></span></p>
+                </div>
+                <div class="other-output">
+                  <p><strong>Other Amount:</strong><span id="showOther"></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="gratitude">
+              <p><strong><span id="showGratitude"></span></strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row" id="contact">
+            <div class="col-md-4" id="address">
               <div>
-                <h5 class="useful-links line-bottom">Useful Links</h5>
-                <ul class="list list-border">
-                  <li><a href="https://www.unicef.org/">UNICEF</a></li>
-                  <li><a href="https://www.unhcr.org/">UNHCR</a></li>
-                  <li><a href="https://www.wfp.org/">WFP</a></li>
-                  <li><a href="https://unhabitat.org/">UN-Habitat</a></li>
+                <p>89, Two Rivers Mall, Limuru Road, Nairobi, Kenya.</p>
+                <ul class="list-inline mt-5">
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-phone text-theme-colored"></i>
+                    <a href="#">254-720-000200</a>
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-envelope text-theme-colored"></i>
+                    <a href="#">contact@bidaa.com</a>
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-globe text-theme-colored"></i>
+                    <a href="#">www.bidaa.org</a>
+                  </li>
                 </ul>
               </div>
             </div>
+            <div class="col-md-4" id="link">
+              <div class="logo">
+                <img src="../images/logo.png">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem" id="foot-link">
+                <div class="card-body">
+                  <div>
+                    <h5 class="useful-links line-bottom">Useful Links</h5>
+                    <ul class="list list-border">
+                      <li><a href="https://www.unicef.org/">UNICEF</a></li>
+                      <li><a href="https://www.unhcr.org/">UNHCR</a></li>
+                      <li><a href="https://www.wfp.org/">WFP</a></li>
+                      <li><a href="https://unhabitat.org/">UN-Habitat</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <div>
+              <p class="text-center copyright" id="copyright">
+                Copyright ©2021 BIDAA. All Rights Reserved
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="copyright">
-        <div>
-          <p class="text-center copyright" id="copyright">
-            Copyright ©2021 BIDAA. All Rights Reserved
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="../js/jquery.js"></script>
-  <script src="../js/script.js"></script>
-</body>
-</html>
+      </footer>
+      <script src="../js/jquery.js"></script>
+      <script src="../js/script.js"></script>
+    </body>
+    </html>
+    
