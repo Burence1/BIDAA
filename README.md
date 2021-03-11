@@ -45,24 +45,26 @@ To contribute, follow the following steps;
 ### Bugs
 So far there are some errors on the website we have not rectified but it does not affect the functioning of the pages
 
-## Team
+### Team
 <table>
 <tr>
 <td>
 
 [![Burens](https://avatars.githubusercontent.com/u/53422530?s=400&u=b3d9704892a4a68c8447d3a1bbae5f081c46dd63&v=4)](https://github.com/Burence1)  
+Burens Omondi
 </td>
 
 
 <td>
 
 [ ![Ian Kiplagat](https://avatars.githubusercontent.com/u/78469773?s=400&u=c5ada583a0141c124599d4893b8a189c04216711&v=4)](https://github.com/kasparov-creat) 
+Ian Kiplagat
 </td>
 
 <td>
 
 [ ![Savanah Agutu](https://avatars.githubusercontent.com/u/62004236?s=400&u=669ad00a09d4701962ad31a24061963402a6ea3a&v=4)](https://github.com/savanahatieno)
-
+Savanah Agutu
 </td>
 
 
@@ -70,14 +72,16 @@ So far there are some errors on the website we have not rectified but it does no
 <td>
 
 [ ![Dennis Mulwa](https://avatars.githubusercontent.com/u/78588564?s=400&v=4)](https://github.com/dennismulwablessed2) 
+Dennis Mulwa
 </td>
 
 <td>
 
 [ ![Anzal Mohamed]()](https://github.com/anzalmohamed) 
+Anzal Mohamed
 </td>
 </tr>
 
-## [License]()
+# License
 
-[MIT](https://choosealicense.com/licenses/mit/) © [BIDAA Welfare Organization](https://github.com/Burence1)
+[MIT](https://choosealicense.com/licenses/mit/) © [BIDAA Welfare Organization](https://github.com/Burence1/BIDAA)
