@@ -46,15 +46,42 @@ To contribute, follow the following steps;
 So far there are some errors on the website we have not rectified but it does not affect the functioning of the pages
 
 ## Team
+<table>
+<tr>
+<td>
 
 [![Burens](https://avatars.githubusercontent.com/u/53422530?s=400&u=b3d9704892a4a68c8447d3a1bbae5f081c46dd63&v=4)](https://github.com/Burence1)  
+</td>
+</tr>
+<tr>
+<td>
 
 [ ![Ian Kiplagat](https://avatars.githubusercontent.com/u/78469773?s=400&u=c5ada583a0141c124599d4893b8a189c04216711&v=4)](https://github.com/kasparov-creat) 
-[ ![Savanah Agutu](https://avatars.githubusercontent.com/u/62004236?s=400&u=669ad00a09d4701962ad31a24061963402a6ea3a&v=4)](https://github.com/savanahatieno) 
-[ ![Dennis Mulwa](https://avatars.githubusercontent.com/u/78588564?s=400&v=4)](https://github.com/dennismulwablessed2) 
-[ ![Anzal Mohamed](https://github.com/account)](https://github.com/anzalmohamed) 
+</td>
+</tr>
 
+<tr>
+<td>
+
+[ ![Savanah Agutu](https://avatars.githubusercontent.com/u/62004236?s=400&u=669ad00a09d4701962ad31a24061963402a6ea3a&v=4)](https://github.com/savanahatieno)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+[ ![Dennis Mulwa](https://avatars.githubusercontent.com/u/78588564?s=400&v=4)](https://github.com/dennismulwablessed2) 
+</td>
+</tr>
+
+<tr>
+<td>
+
+[ ![Anzal Mohamed]()](https://github.com/anzalmohamed) 
+</td>
+</tr>
 
 ## [License]()
 
-[MIT](https://choosealicense.com/licenses/mit/) © [Burens](https://github.com/Burence1)
+[MIT](https://choosealicense.com/licenses/mit/) © [BIDAA Welfare Organization](https://github.com/Burence1)
