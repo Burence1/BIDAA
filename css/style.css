@@ -325,9 +325,7 @@ padding: 15px;
     background-color: rgb(37, 39, 46) !important;
     margin-top: 80px;
   }
-  
-  background: transparent;
-}
+ 
 
 #contact{
   padding-top: 3em;
@@ -475,7 +473,6 @@ figure {
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
 }
-=======
   #address{
     padding-top: 6em;
   }
@@ -1020,4 +1017,8 @@ figure {
   width: fit-content;
   margin-bottom: 1em;
 }
-
+#form-bg{
+  background-image: url(../images/8.jpg);
+  background-size: cover;
+  color: #0d0e0d;
+}
