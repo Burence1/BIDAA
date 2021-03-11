@@ -58,9 +58,7 @@ So far there are some errors on the website we have not rectified but it does no
 
 [ ![Ian Kiplagat](https://avatars.githubusercontent.com/u/78469773?s=400&u=c5ada583a0141c124599d4893b8a189c04216711&v=4)](https://github.com/kasparov-creat) 
 </td>
-</tr>
 
-<tr>
 <td>
 
 [ ![Savanah Agutu](https://avatars.githubusercontent.com/u/62004236?s=400&u=669ad00a09d4701962ad31a24061963402a6ea3a&v=4)](https://github.com/savanahatieno)
@@ -73,9 +71,7 @@ So far there are some errors on the website we have not rectified but it does no
 
 [ ![Dennis Mulwa](https://avatars.githubusercontent.com/u/78588564?s=400&v=4)](https://github.com/dennismulwablessed2) 
 </td>
-</tr>
 
-<tr>
 <td>
 
 [ ![Anzal Mohamed]()](https://github.com/anzalmohamed) 
