@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 .grid{
   margin-top: 50px;
   display: flex;
@@ -76,17 +74,7 @@
   padding: 5px;
 }
 /*OUR TEAM DESIGN SECTION*/
->>>>>>> 94d90a705a592ec41390d2606a7051c4df19924d
 body{
-<<<<<<< HEAD
-  margin:0px;
-  padding: 0px;
-  line-height: 1.7;
-  color: #666666;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  background-color: #fff;
-=======
     margin:0px;
     padding: 0px;
     line-height: 1.7;
@@ -431,7 +419,6 @@ ol {
   padding-top: 6em;
 }
 
-<<<<<<< HEAD
 #address{
   padding-top: 6em;
 }
@@ -497,9 +484,6 @@ figure {
 
 /*about us */
  
-<<<<<<< HEAD
->>>>>>> cd91324b7cfc5af969df298b764132f41751a29f
-=======
 /*donate page*/
 /*header*/
 #header-donate{
@@ -515,13 +499,25 @@ figure {
   margin-left: auto;
   padding-top: 10em;
 }
+.btn btn-dark{
+  margin: 2em;
+}
 #name{
   display: flex;
   flex-direction: row;
 }
-#address-phone{
+/* #address-phone{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+} */
+
+#btn-submit{
+  width: fit-content;
 }
->>>>>>> aa2be4f93f1baee77753b2e42b0f5eb1f81704fa
+.phone{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-bottom: 1em;
+}
