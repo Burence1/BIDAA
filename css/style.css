@@ -802,14 +802,21 @@ figure {
     height: fit-content;
   }
 
+  .logo-1{
+    display: flex;
+    justify-content: center;
+  }
+
   @media screen and (max-width: 600px) {
     .useful-links {
       margin-top: 40px;
     }
+    
   }
   .h5{
     color: blue;
   }
+
 
 /*about us */
  
